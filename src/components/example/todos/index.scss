@@ -1,0 +1,25 @@
+.todos {
+	.center {
+		margin: 0 auto;
+	}
+	.textInput {
+		width: 60%;
+	}
+	.ant-btn {
+		margin-left: 5px;
+	}
+	.showStyle {
+		margin-top: 8px;
+		i {
+			font-size: 26px;
+			margin-right: 10px;
+		}
+		.ant-radio-group {
+			vertical-align: super;
+		}
+	}
+	.todo {
+		margin: 5px 10px;
+		line-height: 20px;
+	}
+}

@@ -1,0 +1,38 @@
+.home {
+	position: relative;
+	.ant-steps-step {
+		.ant-steps-main {
+			margin-left: 50px;
+		}
+	}
+	.ant-steps-vertical {
+		margin-left: 20px;
+	}
+	.ant-spin-spinning {
+	    background: rgba(0,0,0,.1);
+	    display: block;
+	    position: absolute;
+	    top: -25px;
+	    left: -25px;
+	    right: -25px;
+	    bottom: -25px;
+	    z-index: 1;
+		.ant-spin-dot {
+			position: absolute;
+		    display: block;
+		    width: 30px;
+		    height: 30px;
+		    left: 50%;
+		    top: 50%;
+		    margin-top: -10px;
+		    margin-left: -10px;
+		}
+		.ant-spin-text {
+			top: 50%;
+		    position: absolute;
+		    left: 50%;
+		    margin-top: 20px;
+		    margin-left: -28px;
+		}
+	}
+}
