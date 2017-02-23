@@ -20,7 +20,7 @@ import Todos from './components/example/todos/index'
 class App extends Component {
   render() {
     return (
-      <Router history={hashHistory}>
+      <Router history={browserHistory}>
           <Route path='/' component={Layout}>
             <Route path='home' component={Home}></Route>
             <Route path='projects' component={Projects}></Route>
