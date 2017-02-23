@@ -25,7 +25,7 @@ class SiderDemo extends React.Component {
     }
   }
 
-  toggle = () => {
+  toggle() {
       this.setState({
         collapsed: !this.state.collapsed,
       });

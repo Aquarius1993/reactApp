@@ -5,7 +5,8 @@ import React, {
 import {
   Router,
   Route,
-  browserHistory
+  browserHistory,
+  hashHistory
 } from 'react-router';
 import './App.css';
 import Layout from './components/layout'
@@ -19,7 +20,7 @@ import Todos from './components/example/todos/index'
 class App extends Component {
   render() {
     return (
-      <Router history={browserHistory}>
+      <Router history={hashHistory}>
           <Route path='/' component={Layout}>
             <Route path='home' component={Home}></Route>
             <Route path='projects' component={Projects}></Route>
@@ -28,7 +29,6 @@ class App extends Component {
             <Route path='examples/todos' component={Todos}></Route>
           </Route>
       </Router>
-
     );
   }
 }

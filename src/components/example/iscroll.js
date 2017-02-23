@@ -30,7 +30,7 @@ class Scroll extends React.Component {
     }
   }
 
-  _handleScrollRefresh = (iScrollInstance) => {
+  _handleScrollRefresh(iScrollInstance) {
     const hasVerticalScroll = iScrollInstance.hasVerticalScroll
 
     if (this.state.canVerticallyScroll !== hasVerticalScroll) {
@@ -40,20 +40,20 @@ class Scroll extends React.Component {
     }
   };
 
-  _handleScrollStart = () => {
+  _handleScrollStart() {
     this.setState({
       isScrolling: true
     })
   };
 
-  _handleScrollEnd = (iScrollInstance) => {
+  _handleScrollEnd(iScrollInstance) {
     this.setState({
       isScrolling: false,
       y: iScrollInstance.y
     })
   };
 
-  _handleAddRow = (ev) => {
+  _handleAddRow(ev) {
     ev.preventDefault()
 
     this.setState(({
@@ -71,7 +71,7 @@ class Scroll extends React.Component {
     })
   };
 
-  _handleRemoveRow = (ev) => {
+  _handleRemoveRow(ev) {
     ev.preventDefault()
 
     this.setState(({
@@ -84,7 +84,7 @@ class Scroll extends React.Component {
     })
   };
 
-  _handleToggleScroll = (ev) => {
+  _handleToggleScroll(ev) {
     ev.preventDefault()
 
     this.setState(({
