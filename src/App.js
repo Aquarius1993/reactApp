@@ -20,13 +20,14 @@ import Todos from './components/example/todos/index'
 class App extends Component {
   render() {
     return (
-      <Router history={browserHistory}>
+      <Router history={hashHistory}>
           <Route path='/' component={Layout}>
             <Route path='home' component={Home}></Route>
             <Route path='projects' component={Projects}></Route>
             <Route path='examples' component={Examples}></Route>
             <Route path='examples/Iscroll' component={Scroll}></Route>
             <Route path='examples/todos' component={Todos}></Route>
+            <Route path='*' component={Home}></Route>
           </Route>
       </Router>
     );
