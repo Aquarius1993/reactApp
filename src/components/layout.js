@@ -32,7 +32,7 @@ class SiderDemo extends React.Component {
     }
     // 确定菜单的active项
   componentWillMount() {
-    let path = window.location.pathname.substring(1);
+    let path = window.location.hash.substring(2);
     if (path.startsWith('home')) {
       this.setState({
         index: ['1']
@@ -68,9 +68,7 @@ class SiderDemo extends React.Component {
           collapsed={this.state.collapsed}
         >
           <div className="logo">
-          		<Badge count={5}>
-					<span className="head-example" /> 
-				</Badge>
+          		
           </div>
 		<Menu theme="dark" mode="inline" defaultSelectedKeys={this.state.index}>
             <Menu.Item key="1">
@@ -110,7 +108,7 @@ class SiderDemo extends React.Component {
             <Icon
               className="trigger"
               type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
-              onClick={this.toggle}
+              onClick={(e) => this.toggle(e)}
             />
           </Header>
           <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>

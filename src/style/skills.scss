@@ -1,0 +1,17 @@
+.skills {
+	div {
+		line-height: 24px;
+		font-size: 14px;
+		ul.ant-rate {
+			font-size: 13px;
+			margin: 0 auto;
+			.ant-rate-star-half .ant-rate-star-content:before, .ant-rate-star-full:before {
+				color: #1DA57A;
+			}
+		}
+		p {
+			padding-left: 5px;
+		}
+
+	}
+}

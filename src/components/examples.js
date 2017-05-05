@@ -28,11 +28,6 @@ class Examples extends React.Component {
 				)
 			}],
 			tables: [{
-				key: '1',
-				name: 'Iscroll',
-				des: '上拉加载下拉刷新demo',
-				link: 'examples/Iscroll'
-			}, {
 				key: '2',
 				name: 'todos',
 				des: '利用redux实现todos',
