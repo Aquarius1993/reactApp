@@ -18,7 +18,7 @@ class Home extends React.Component {
 			}, {
 				icon: 'desktop',
 				title: '毕业院校',
-				description: '安徽师范大学(软件工程专业)'
+				description: '安徽师范大学/软件工程/一本'
 			}, {
 				icon: 'team',
 				title: '工作年限',

@@ -17,7 +17,7 @@ class Skills extends React.Component {
 								<Rate allowHalf defaultValue={4} disabled />
 							</Col>
 							<Col xs={14} sm={18} md={19} lg={20}>
-								<p>1、熟练使用vue开发单页面应用</p>
+								<p>1、熟练运用HTML、CSS、Js构建高性能的web应用程序</p>
 							</Col>
 						</Row>
 						<Row>
@@ -25,7 +25,7 @@ class Skills extends React.Component {
 								<Rate allowHalf defaultValue={3.5} disabled />
 							</Col>
 							<Col xs={14} sm={18} md={19} lg={20}>
-								<p>2、熟悉运用HTML5、CSS3实现移动端的页面开发，使用zepto框架实现页面交互</p>
+								<p>2、熟练应用sass，bootstrap等工具和库完成页面布局</p>
 							</Col>
 						</Row>
 						<Row>
@@ -33,7 +33,7 @@ class Skills extends React.Component {
 								<Rate allowHalf defaultValue={3.5} disabled />
 							</Col>
 							<Col xs={14} sm={18} md={19} lg={20}>
-								<p>3、熟悉sass，熟悉bootstrap框架，可使用bootstrap框架简捷开发响应式页面</p>
+								<p>3、熟练运用react，Vue框架完成单页面开发</p>
 							</Col>
 						</Row>
 						<Row>
@@ -41,7 +41,7 @@ class Skills extends React.Component {
 								<Rate allowHalf defaultValue={3.5} disabled />
 							</Col>
 							<Col xs={14} sm={18} md={19} lg={20}>
-								<p>4、熟悉grunt，gulp，webpack打包工具</p>
+								<p>4、熟练使用grunt，gulp，webpack等工具进行前端工程化</p>
 							</Col>
 						</Row>
 						<Row>
@@ -49,7 +49,7 @@ class Skills extends React.Component {
 								<Rate allowHalf defaultValue={3} disabled />
 							</Col>
 							<Col xs={14} sm={18} md={19} lg={20}>
-								<p>5、熟悉artTemplate技术，ajax技术，熟悉浏览器和服务器交互机制，依据接口文档与后台进行交互，对JSONP跨域有使用经验，了解mock</p>
+								<p>5、熟练使用artTemplate，ajax技术，熟悉浏览器和服务器交互机制，对JSONP跨域有使用经验，了解mock</p>
 							</Col>
 						</Row>
 						<Row>
@@ -57,7 +57,7 @@ class Skills extends React.Component {
 								<Rate allowHalf defaultValue={3} disabled />
 							</Col>
 							<Col xs={14} sm={18} md={19} lg={20}>
-								<p>6、有nodejs+mongoose, react+react-router+antd使用经验</p>
+								<p>6、熟悉es6,有nodejs+mongoose开发经验</p>
 							</Col>
 						</Row>
 						<Row>
@@ -65,7 +65,7 @@ class Skills extends React.Component {
 								<Rate allowHalf defaultValue={3} disabled />
 							</Col>
 							<Col xs={14} sm={18} md={19} lg={20}>
-								<p>7、了解krpano</p>
+								<p>7、有krpano全景H5开发经验</p>
 							</Col>
 						</Row>
 						

@@ -63,14 +63,14 @@ class Projects extends React.Component {
 								<p>4、重写ajax，实现异步请求session过期时跳转登录页面</p>
 						    </Panel>
 						    <Panel header="学派网，大家网" key="5">
-						        <p className="title">学派网：涵盖建造师、职称英语等考试。大家网：教育培训学习网站  	2015.07-2016.05 </p> 
+						        <p className="title">学派网：涵盖建造师、职称英语等考试。大家网：教育培训学习网站  	2015.09-2016.05 </p> 
 								<p>1、使用html，sass还原设计稿，完成交互； </p>
 								<p>2、运用ajax实现异步加载，并用json完成前后端数据交互； </p>
 								<p>3、使用gulp管理项目 </p>
 								<p>4、浏览器兼容处理 </p>
 						    </Panel>
 						    <Panel header="52kids官网，h5" key="6">
-						        <p className="title">个性化育儿产品  	2014.06-2015.07  </p>
+						        <p className="title">个性化育儿产品  	2014.06-2015.09  </p>
 								<p>1、主要按照UI提供的设计图进行切图，用Div+Css完成静态页面的布局 </p>
 								<p>2、运用ajax异步处理，进行前后台交互 </p>
 								<p>3、页面优化及浏览器兼容处理</p>

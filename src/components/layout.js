@@ -98,7 +98,7 @@ class SiderDemo extends React.Component {
             <Menu.Item key="5">
               <Link to='/examples'>
                 <Icon type="upload" />
-                <span className="nav-text">reactDemo</span>
+                <span className="nav-text">个人作品</span>
               </Link>
             </Menu.Item>
           </Menu>

@@ -23,15 +23,25 @@ class Examples extends React.Component {
 				key: 'action',
 				render: (text, record) => (
 					<span>
-					<Link to={record.link}>查看</Link>
+					<a href={record.link} target='blank'>查看</a>
 				    </span>
 				)
 			}],
 			tables: [{
 				key: '2',
-				name: 'todos',
-				des: '利用redux实现todos',
-				link: 'examples/todos'
+				name: 'reactwebApp',
+				des: 'react+redux实现点评首页，豆瓣电影加载(选择手机模式)',
+				link: 'https://aquarius1993.github.io/reactappdemo/'
+			}, {
+				key: '3',
+				name: 'hexoProject',
+				des: 'hexo在github上搭建的博客',
+				link: 'https://aquarius1993.github.io/blog/'
+			}, {
+				key: '4',
+				name: 'more',
+				des: '更多个人作品',
+				link: 'https://github.com/Aquarius1993/'
 			}]
 		}
 	}

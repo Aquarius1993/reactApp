@@ -22,13 +22,13 @@ class Business extends React.Component {
 								<p>4、分析项目开发文档的可行性，技术选型以及团队协作方式。</p>
 						    </Timeline.Item>
 						    <Timeline.Item>
-						    	<p className='title'>江苏学派网北京分公司 2015/07－2016/05</p>
+						    	<p className='title'>江苏学派网北京分公司 2015/09－2016/05</p>
 						    	<p>1、根据需求文档(MRD)以及视觉交互设计稿进行网页设计。</p>
 								<p>2、使用web前端技术，进行页面动画和交互的工作。</p>
 								<p>3、浏览器兼容性处理，设备适配，代码优化。</p>
 						    </Timeline.Item>						
 						    <Timeline.Item>
-						    	<p className='title'>第一摩码教育 2014-06 ~ 2015-07</p>
+						    	<p className='title'>第一摩码教育 2014-06 ~ 2015-09</p>
 						    	<p>1、根据设计稿完成页面。</p>
 								<p>2、js完成交互</p>	
 						    </Timeline.Item>
