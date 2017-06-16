@@ -26,11 +26,12 @@ class SiderDemo extends React.Component {
   }
 
   toggle() {
-      this.setState({
-        collapsed: !this.state.collapsed,
-      });
-    }
-    // 确定菜单的active项
+    this.setState({
+      collapsed: !this.state.collapsed,
+    });
+  }
+
+  // 确定菜单的active项
   componentWillMount() {
     let path = window.location.hash.substring(2);
     if (path.startsWith('home')) {
